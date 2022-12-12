@@ -14,6 +14,10 @@
   - [cURL](https://curl.se/)
   - [PHP: cURL](https://www.php.net/manual/en/book.curl.php)
   - use cURL instead of file_get_contents to make an API request
+  - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+  - [GitHub 404 page](https://github.com/404)
+  - [OpenWeather API](https://openweathermap.org/api)
+  - response codes:get the HTTP status code
 - [ ] REST and RESTful APIs: using them from PHP
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
