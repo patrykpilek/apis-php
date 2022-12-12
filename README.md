@@ -18,6 +18,10 @@
   - [GitHub 404 page](https://github.com/404)
   - [OpenWeather API](https://openweathermap.org/api)
   - response codes:get the HTTP status code
+  - [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)
+  - [Unsplash](https://unsplash.com/)
+  - [Unsplash API documentation: public authentication](https://unsplash.com/documentation#public-authentication)
+  - request headers: add meta data about the request
 - [ ] REST and RESTful APIs: using them from PHP
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
