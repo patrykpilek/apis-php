@@ -25,6 +25,8 @@
   - [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Response_fields)
   - [PHP: curl_getinfo](https://www.php.net/manual/en/function.curl-getinfo.php)
   - response headers; read meta data about the response
+  - [PHP: curl_setopt](https://www.php.net/manual/en/function.curl-setopt.php)
+  - get all individual response headers in an array
 - [ ] REST and RESTful APIs: using them from PHP
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
