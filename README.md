@@ -27,6 +27,11 @@
   - response headers; read meta data about the response
   - [PHP: curl_setopt](https://www.php.net/manual/en/function.curl-setopt.php)
   - get all individual response headers in an array
+  - [Unsplash](https://docs.github.com/en/rest/activity/starring?apiVersion=2022-11-28)
+  - [Unsplash](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsettings%2Ftokens)
+  - [Unsplash](https://github.com/httpie/httpie/)
+  - [Unsplash](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#user-agent-required)
+  - use an API that requires a specific request header
 - [ ] REST and RESTful APIs: using them from PHP
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
