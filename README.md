@@ -37,6 +37,8 @@
   - [GitHub activity: starring a repository](https://docs.github.com/en/rest/activity/starring?apiVersion=2022-11-28#check-if-a-repository-is-starred-by-the-authenticated-user)
   - [HTTPie GitHub repository](https://github.com/httpie/httpie/)
   - request method: change the method to get a different result with the same URL
+  - [GitHub API: creating a repository](https://docs.github.com/en/rest/repos/repos#create-a-repository-for-the-authenticated-user)
+  - request body: add a payload to send data along with the request
 - [ ] REST and RESTful APIs: using them from PHP
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
