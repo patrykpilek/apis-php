@@ -40,6 +40,11 @@
   - [GitHub API: creating a repository](https://docs.github.com/en/rest/repos/repos#create-a-repository-for-the-authenticated-user)
   - request body: add a payload to send data along with the request
 - [ ] REST and RESTful APIs: using them from PHP
+  - [Representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer)
+  - [The REST architectural style](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+  - REST and RESTful API: what are they?
+  - [GitHub API:gists](https://docs.github.com/en/rest/gists?apiVersion=2022-11-28)
+  - access a RESTful API in PHP with cURL
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
