@@ -1,7 +1,19 @@
 <?php
 
-$response = file_get_contents("https://randomuser.me/api");
+$ch = curl_init();
 
-$data = json_decode($response, true);
+curl_setopt_array($ch, [
+//    CURLOPT_URL => "https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY",
+    CURLOPT_URL => "https://randomuser.me/api",
+    CURLOPT_RETURNTRANSFER => true
+]);
 
-echo $data["results"][0]["name"]["first"], "\n";
+$response = curl_exec($ch);
+
+$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+curl_close($ch);
+
+echo $status_code, "\n";
+
+echo $response, "\n";
