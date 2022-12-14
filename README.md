@@ -45,6 +45,11 @@
   - REST and RESTful API: what are they?
   - [GitHub API:gists](https://docs.github.com/en/rest/gists?apiVersion=2022-11-28)
   - access a RESTful API in PHP with cURL
+  - [PHP: file_get_contents](https://www.php.net/manual/en/function.file-get-contents.php)
+  - [PHP: cURL](https://www.php.net/manual/en/book.curl.php)
+  - [Guzzle PHP HTTP client](https://docs.guzzlephp.org/en/stable/)
+  - [Guzzle documentation](https://docs.guzzlephp.org/en/stable/)
+  - use the Guzzle HTTP client for object-oriented API code
 - [ ] Create a RESTful API: build a framework for serving the API
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
