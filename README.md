@@ -62,6 +62,10 @@
 - [ ] Create a RESTful API: build a framework for serving the API
   - start writing the API: enable URL rewriting
   - the front controller: get the resource, ID and the request method
+  - [cURL](https://curl.se/)
+  - [Postman API platform](https://www.postman.com/)
+  - [HTTPie API testing client](https://httpie.io/)
+  - use a client for API development: cURL, Postman or HTTPie
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication

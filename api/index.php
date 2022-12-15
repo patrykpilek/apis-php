@@ -10,4 +10,4 @@ $id = $parts[3] ?? null;
 
 echo $resource, ", ", $id;
 
-echo $_SERVER["REQUEST_METHOD"];
+echo $_SERVER["REQUEST_METHOD"], "\n";
