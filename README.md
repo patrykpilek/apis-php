@@ -73,6 +73,9 @@
   - [PHP: spl_autoload_register](https://www.php.net/manual/en/function.spl-autoload-register.php)
   - [Autoloading with Composer](https://getcomposer.org/doc/01-basic-usage.md#autoloading)
   - use Composer's autoloader to load classes automatically
+  - [PHP: Type declarations](https://www.php.net/manual/en/language.types.declarations.php)
+  - [PHP configuration settings: display_errors](https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors)
+  - make debugging easier: add type declarations and enable strict type checking
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
