@@ -11,3 +11,10 @@ $id = $parts[3] ?? null;
 echo $resource, ", ", $id;
 
 echo $_SERVER["REQUEST_METHOD"], "\n";
+
+if ($resource != "tasks") {
+    
+    //header("{$_SERVER['SERVER_PROTOCOL']} 404 Not Found");
+    http_response_code(404);
+    exit;
+}

@@ -66,6 +66,9 @@
   - [Postman API platform](https://www.postman.com/)
   - [HTTPie API testing client](https://httpie.io/)
   - use a client for API development: cURL, Postman or HTTPie
+  - [PHP: header](https://www.php.net/manual/en/function.header.php)
+  - [PHP: http_response_code](https://www.php.net/manual/en/function.http-response-code.php)
+  - set the HTTP status code: best practices
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
