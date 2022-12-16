@@ -76,6 +76,9 @@
   - [PHP: Type declarations](https://www.php.net/manual/en/language.types.declarations.php)
   - [PHP configuration settings: display_errors](https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors)
   - make debugging easier: add type declarations and enable strict type checking
+  - [PHP: set_exception_handler](https://www.php.net/manual/en/function.set-exception-handler.php)
+  - [PHP: Throwable class](https://www.php.net/manual/en/class.throwable.php)
+  - always return JSON: add a generic exception handler and JSON Content-Type header
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
