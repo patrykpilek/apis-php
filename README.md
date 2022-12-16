@@ -70,6 +70,9 @@
   - [PHP: http_response_code](https://www.php.net/manual/en/function.http-response-code.php)
   - set the HTTP status code: best practices
   - add a controller class to decide the response
+  - [PHP: spl_autoload_register](https://www.php.net/manual/en/function.spl-autoload-register.php)
+  - [Autoloading with Composer](https://getcomposer.org/doc/01-basic-usage.md#autoloading)
+  - use Composer's autoloader to load classes automatically
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
