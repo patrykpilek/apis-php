@@ -69,6 +69,7 @@
   - [PHP: header](https://www.php.net/manual/en/function.header.php)
   - [PHP: http_response_code](https://www.php.net/manual/en/function.http-response-code.php)
   - set the HTTP status code: best practices
+  - add a controller class to decide the response
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
