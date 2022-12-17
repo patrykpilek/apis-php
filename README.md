@@ -2,6 +2,15 @@
 
 ## Content
 
+### .env file
+
+```.dotenv
+DB_HOST="your_host"
+DB_NAME="your_db_name"
+DB_USER="your_db_user"
+DB_PASS="your_db_password"
+```
+
 - [x] API basics: what APIs are and how to use them
   - [Random User Generator](https://randomuser.me/)
   - [PHP: file_get_contents](https://www.php.net/manual/en/function.file-get-contents.php)
@@ -82,7 +91,24 @@
   - [405 status code: Method not allowed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405)
   - [HTTP Allow header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow)
   - send a 405 status code and Allow header for invalid request methods
-- [ ] Create a RESTful API: create a database and retrieve data from it
+- [x] Create a RESTful API: create a database and retrieve data from it
+  - create a new database and a database user to access it
+  - create a table to store resource data
+  - [PHP constructor promotion](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion)
+  - connect to the database from PHP: add a Database class
+  - [Packagist: "dotenv" packages](https://packagist.org/?query=dotenv)
+  - move the database connection data to a separate .env file
+  - create a table data gateway class for the resource table
+  - show a list of all records
+  - [JSON.org](https://www.json.org/json-en.html)
+  - [PDO: setAttribute](https://www.php.net/manual/en/pdo.setattribute.php)
+  - configure PDO to prevent numeric values from being converted to strings
+  - [BOOlean values in MySQL/MariaDB](https://mariadb.com/kb/en/boolean/)
+  - [JSON.org](https://www.json.org/json-en.html)
+  - convert database booleans to boolean literals in the JSON
+  - [PDOStatement: fetch](https://www.php.net/manual/en/pdostatement.fetch.php)
+  - show an individual record
+  - respond with 404 if the resource with the specified ID is not found
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
