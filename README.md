@@ -100,6 +100,9 @@ DB_PASS="your_db_password"
   - move the database connection data to a separate .env file
   - create a table data gateway class for the resource table
   - show a list of all records
+  - [JSON.org](https://www.json.org/json-en.html)
+  - [PDO: setAttribute](https://www.php.net/manual/en/pdo.setattribute.php)
+  - configure PDO to prevent numeric values from being converted to strings
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
