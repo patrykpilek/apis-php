@@ -91,7 +91,7 @@ DB_PASS="your_db_password"
   - [405 status code: Method not allowed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405)
   - [HTTP Allow header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow)
   - send a 405 status code and Allow header for invalid request methods
-- [ ] Create a RESTful API: create a database and retrieve data from it
+- [x] Create a RESTful API: create a database and retrieve data from it
   - create a new database and a database user to access it
   - create a table to store resource data
   - [PHP constructor promotion](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion)
