@@ -99,6 +99,7 @@ DB_PASS="your_db_password"
   - [Packagist: "dotenv" packages](https://packagist.org/?query=dotenv)
   - move the database connection data to a separate .env file
   - create a table data gateway class for the resource table
+  - show a list of all records
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
