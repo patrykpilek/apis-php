@@ -59,7 +59,7 @@
   - [PHP: http_build_query](https://www.php.net/manual/en/function.http-build-query.php)
   - [Stripe dashboard](https://dashboard.stripe.com/login)
   - use an SDK: compare the Stripe API to its SDK
-- [ ] Create a RESTful API: build a framework for serving the API
+- [x] Create a RESTful API: build a framework for serving the API
   - start writing the API: enable URL rewriting
   - the front controller: get the resource, ID and the request method
   - [cURL](https://curl.se/)
@@ -79,6 +79,9 @@
   - [PHP: set_exception_handler](https://www.php.net/manual/en/function.set-exception-handler.php)
   - [PHP: Throwable class](https://www.php.net/manual/en/class.throwable.php)
   - always return JSON: add a generic exception handler and JSON Content-Type header
+  - [405 status code: Method not allowed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405)
+  - [HTTP Allow header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow)
+  - send a 405 status code and Allow header for invalid request methods
 - [ ] Create a RESTful API: create a database and retrieve data from it
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
