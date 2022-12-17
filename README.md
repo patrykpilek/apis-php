@@ -108,6 +108,7 @@ DB_PASS="your_db_password"
   - convert database booleans to boolean literals in the JSON
   - [PDOStatement: fetch](https://www.php.net/manual/en/pdostatement.fetch.php)
   - show an individual record
+  - respond with 404 if the resource with the specified ID is not found
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
