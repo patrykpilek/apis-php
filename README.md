@@ -2,6 +2,15 @@
 
 ## Content
 
+### .env file
+
+```.dotenv
+DB_HOST="your_host"
+DB_NAME="your_db_name"
+DB_USER="your_db_user"
+DB_PASS="your_db_password"
+```
+
 - [x] API basics: what APIs are and how to use them
   - [Random User Generator](https://randomuser.me/)
   - [PHP: file_get_contents](https://www.php.net/manual/en/function.file-get-contents.php)
@@ -87,6 +96,8 @@
   - create a table to store resource data
   - [PHP constructor promotion](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion)
   - connect to the database from PHP: add a Database class
+  - [Packagist: "dotenv" packages](https://packagist.org/?query=dotenv)
+  - move the database connection data to a separate .env file
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
