@@ -103,6 +103,9 @@ DB_PASS="your_db_password"
   - [JSON.org](https://www.json.org/json-en.html)
   - [PDO: setAttribute](https://www.php.net/manual/en/pdo.setattribute.php)
   - configure PDO to prevent numeric values from being converted to strings
+  - [BOOlean values in MySQL/MariaDB](https://mariadb.com/kb/en/boolean/)
+  - [JSON.org](https://www.json.org/json-en.html)
+  - convert database booleans to boolean literals in the JSON
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
