@@ -98,6 +98,7 @@ DB_PASS="your_db_password"
   - connect to the database from PHP: add a Database class
   - [Packagist: "dotenv" packages](https://packagist.org/?query=dotenv)
   - move the database connection data to a separate .env file
+  - create a table data gateway class for the resource table
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
