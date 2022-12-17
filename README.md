@@ -106,6 +106,8 @@ DB_PASS="your_db_password"
   - [BOOlean values in MySQL/MariaDB](https://mariadb.com/kb/en/boolean/)
   - [JSON.org](https://www.json.org/json-en.html)
   - convert database booleans to boolean literals in the JSON
+  - [PDOStatement: fetch](https://www.php.net/manual/en/pdostatement.fetch.php)
+  - show an individual record
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
