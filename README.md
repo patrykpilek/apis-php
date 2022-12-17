@@ -84,6 +84,7 @@
   - send a 405 status code and Allow header for invalid request methods
 - [ ] Create a RESTful API: create a database and retrieve data from it
   - create a new database and a database user to access it
+  - create a table to store resource data
 - [ ] Create a RESTful API: create, update and delete individual resources
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
