@@ -115,6 +115,8 @@ DB_PASS="your_db_password"
   - [PHP input stream wrappers](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input)
   - [HTTPie request items](https://httpie.io/docs/cli/request-items)
   - get the data from the request as JSON
+  - [HTTP 201 created status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201)
+  - insert a record into the database and respond with a 201 status code
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
