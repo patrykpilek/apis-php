@@ -123,6 +123,7 @@ DB_PASS="your_db_password"
   - add a generic error handler to output warnings as JSON
   - [HTTP status code 422: unprocessable entity](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
   - validate the data and respond with a 422 status code if invalid
+  - conditionally validate the data when updating an existing record
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
