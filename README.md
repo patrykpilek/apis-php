@@ -144,6 +144,7 @@ DB_PASS="your_db_password"
   - create a table data gateway class for hte user table
   - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
   - authenticate the API key and return a 401 status code if invalid
+  - refactor the front controller to a bootstrap file and Auth class
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
