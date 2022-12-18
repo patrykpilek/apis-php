@@ -145,6 +145,7 @@ DB_PASS="your_db_password"
   - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
   - authenticate the API key and return a 401 status code if invalid
   - refactor the front controller to a bootstrap file and Auth class
+  - add a foreign key relationship to link task records to user records
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
