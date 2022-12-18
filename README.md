@@ -127,7 +127,7 @@ DB_PASS="your_db_password"
   - get the data from the request for updating an existing record
   - update the record in the database and return a 200 status code
   - delete the record in the database and return a 200 status code
-- [ ] API key authentication
+- [x] API key authentication
   - [Random user generator](https://randomuser.me/) 
   - [GitHub REST API resources](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28) 
   - [PHP: password_hash](https://www.php.net/manual/en/function.password-hash.php) 
@@ -148,6 +148,7 @@ DB_PASS="your_db_password"
   - add a foreign key relationship to link task records to user records
   - retrieve the ID of the authenticated user when authenticating
   - restrict the tasks index endpoint to only show the authenticated user's tasks
+  - cache the database connection to avoid multiple connections in the same request
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
