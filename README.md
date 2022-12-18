@@ -121,6 +121,8 @@ DB_PASS="your_db_password"
   - [PHP: set_exception_handler](https://www.php.net/manual/en/function.set-exception-handler.php)
   - [PHP: Error Exception class](https://www.php.net/manual/en/class.errorexception.php)
   - add a generic error handler to output warnings as JSON
+  - [HTTP status code 422: unprocessable entity](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+  - validate the data and respond with a 422 status code if invalid
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
