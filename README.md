@@ -132,6 +132,10 @@ DB_PASS="your_db_password"
   - [GitHub REST API resources](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28) 
   - [PHP: password_hash](https://www.php.net/manual/en/function.password-hash.php) 
   - create a table to store user account data
+  - [Pico CSS framework](https://picocss.com/)
+  - [PHP: random_bytes](https://www.php.net/manual/en/function.random-bytes.php)
+  - [PHP: bin2hex](https://www.php.net/manual/en/function.bin2hex.php)
+  - add a register page to insert a new user record and generate a new API key
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
