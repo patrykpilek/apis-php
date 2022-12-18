@@ -136,6 +136,9 @@ DB_PASS="your_db_password"
   - [PHP: random_bytes](https://www.php.net/manual/en/function.random-bytes.php)
   - [PHP: bin2hex](https://www.php.net/manual/en/function.bin2hex.php)
   - add a register page to insert a new user record and generate a new API key
+  - [API key](https://en.wikipedia.org/wiki/API_key)
+  - [PHP: $_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
+  - send the API key with the request: query string or request header
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
