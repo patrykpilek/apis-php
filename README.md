@@ -127,7 +127,28 @@ DB_PASS="your_db_password"
   - get the data from the request for updating an existing record
   - update the record in the database and return a 200 status code
   - delete the record in the database and return a 200 status code
-- [ ] API key authentication
+- [x] API key authentication
+  - [Random user generator](https://randomuser.me/) 
+  - [GitHub REST API resources](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28) 
+  - [PHP: password_hash](https://www.php.net/manual/en/function.password-hash.php) 
+  - create a table to store user account data
+  - [Pico CSS framework](https://picocss.com/)
+  - [PHP: random_bytes](https://www.php.net/manual/en/function.random-bytes.php)
+  - [PHP: bin2hex](https://www.php.net/manual/en/function.bin2hex.php)
+  - add a register page to insert a new user record and generate a new API key
+  - [API key](https://en.wikipedia.org/wiki/API_key)
+  - [PHP: $_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
+  - send the API key with the request: query string or request header
+  - [HTTP status code 400: Bad request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
+  - check the API key is present in the request and return 400 if not
+  - create a table data gateway class for hte user table
+  - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
+  - authenticate the API key and return a 401 status code if invalid
+  - refactor the front controller to a bootstrap file and Auth class
+  - add a foreign key relationship to link task records to user records
+  - retrieve the ID of the authenticated user when authenticating
+  - restrict the tasks index endpoint to only show the authenticated user's tasks
+  - cache the database connection to avoid multiple connections in the same request
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
