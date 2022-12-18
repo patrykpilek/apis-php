@@ -117,6 +117,10 @@ DB_PASS="your_db_password"
   - get the data from the request as JSON
   - [HTTP 201 created status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201)
   - insert a record into the database and respond with a 201 status code
+  - [PHP: Error class](https://www.php.net/manual/en/class.error.php)
+  - [PHP: set_exception_handler](https://www.php.net/manual/en/function.set-exception-handler.php)
+  - [PHP: Error Exception class](https://www.php.net/manual/en/class.errorexception.php)
+  - add a generic error handler to output warnings as JSON
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
