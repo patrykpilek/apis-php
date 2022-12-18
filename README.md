@@ -110,6 +110,11 @@ DB_PASS="your_db_password"
   - show an individual record
   - respond with 404 if the resource with the specified ID is not found
 - [ ] Create a RESTful API: create, update and delete individual resources
+  - [PHP: $_POST](https://www.php.net/manual/en/reserved.variables.post.php)
+  - [HTTPie default behaviour](https://httpie.io/docs/cli/default-behaviour)
+  - [PHP input stream wrappers](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input)
+  - [HTTPie request items](https://httpie.io/docs/cli/request-items)
+  - get the data from the request as JSON
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
