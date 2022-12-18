@@ -124,6 +124,7 @@ DB_PASS="your_db_password"
   - [HTTP status code 422: unprocessable entity](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
   - validate the data and respond with a 422 status code if invalid
   - conditionally validate the data when updating an existing record
+  - get the data from the request for updating an existing record
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
