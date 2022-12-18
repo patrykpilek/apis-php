@@ -139,6 +139,8 @@ DB_PASS="your_db_password"
   - [API key](https://en.wikipedia.org/wiki/API_key)
   - [PHP: $_SERVER](https://www.php.net/manual/en/reserved.variables.server.php)
   - send the API key with the request: query string or request header
+  - [HTTP status code 400: Bad request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
+  - check the API key is present in the request and return 400 if not
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
