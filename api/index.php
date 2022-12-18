@@ -28,6 +28,11 @@ if ( ! $auth->authenticateAPIKey()) {
     exit;
 }
 
+$user_id = $auth->getUserID();
+
+var_dump($user_id);
+exit;
+
 $task_gateway = new TaskGateway($database);
 
 $controller = new TaskController($task_gateway);
