@@ -128,6 +128,10 @@ DB_PASS="your_db_password"
   - update the record in the database and return a 200 status code
   - delete the record in the database and return a 200 status code
 - [ ] API key authentication
+  - [Random user generator](https://randomuser.me/) 
+  - [GitHub REST API resources](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28) 
+  - [PHP: password_hash](https://www.php.net/manual/en/function.password-hash.php) 
+  - create a table to store user account data
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
