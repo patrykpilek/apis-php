@@ -109,7 +109,24 @@ DB_PASS="your_db_password"
   - [PDOStatement: fetch](https://www.php.net/manual/en/pdostatement.fetch.php)
   - show an individual record
   - respond with 404 if the resource with the specified ID is not found
-- [ ] Create a RESTful API: create, update and delete individual resources
+- [x] Create a RESTful API: create, update and delete individual resources
+  - [PHP: $_POST](https://www.php.net/manual/en/reserved.variables.post.php)
+  - [HTTPie default behaviour](https://httpie.io/docs/cli/default-behaviour)
+  - [PHP input stream wrappers](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input)
+  - [HTTPie request items](https://httpie.io/docs/cli/request-items)
+  - get the data from the request as JSON
+  - [HTTP 201 created status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201)
+  - insert a record into the database and respond with a 201 status code
+  - [PHP: Error class](https://www.php.net/manual/en/class.error.php)
+  - [PHP: set_exception_handler](https://www.php.net/manual/en/function.set-exception-handler.php)
+  - [PHP: Error Exception class](https://www.php.net/manual/en/class.errorexception.php)
+  - add a generic error handler to output warnings as JSON
+  - [HTTP status code 422: unprocessable entity](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+  - validate the data and respond with a 422 status code if invalid
+  - conditionally validate the data when updating an existing record
+  - get the data from the request for updating an existing record
+  - update the record in the database and return a 200 status code
+  - delete the record in the database and return a 200 status code
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
