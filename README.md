@@ -142,6 +142,8 @@ DB_PASS="your_db_password"
   - [HTTP status code 400: Bad request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
   - check the API key is present in the request and return 400 if not
   - create a table data gateway class for hte user table
+  - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
+  - authenticate the API key and return a 401 status code if invalid
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
