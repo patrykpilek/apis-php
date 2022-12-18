@@ -125,6 +125,7 @@ DB_PASS="your_db_password"
   - validate the data and respond with a 422 status code if invalid
   - conditionally validate the data when updating an existing record
   - get the data from the request for updating an existing record
+  - update the record in the database and return a 200 status code
 - [ ] API key authentication
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
