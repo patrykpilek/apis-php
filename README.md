@@ -147,6 +147,7 @@ DB_PASS="your_db_password"
   - refactor the front controller to a bootstrap file and Auth class
   - add a foreign key relationship to link task records to user records
   - retrieve the ID of the authenticated user when authenticating
+  - restrict the tasks index endpoint to only show the authenticated user's tasks
 - [ ] An introduction to authentication using access tokens
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
