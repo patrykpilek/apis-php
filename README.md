@@ -155,5 +155,8 @@ DB_PASS="your_db_password"
   - check the username and password and return a 401 status code if invalid
   - [PHP: base64_encode](https://www.php.net/manual/en/function.base64-encode.php)
   - generate an encoded access token containing the user details
+  - [HTTP Authorization header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
+  - [PHP: apache_request_headers](https://www.php.net/manual/en/function.apache-request-headers.php)
+  - pass the access token to the task API endpoints in the authorization header
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
