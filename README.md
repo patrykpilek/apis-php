@@ -158,5 +158,6 @@ DB_PASS="your_db_password"
   - [HTTP Authorization header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
   - [PHP: apache_request_headers](https://www.php.net/manual/en/function.apache-request-headers.php)
   - pass the access token to the task API endpoints in the authorization header
+  - validate the access token and decode its contents
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
