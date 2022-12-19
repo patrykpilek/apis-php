@@ -150,5 +150,6 @@ DB_PASS="your_db_password"
   - restrict the tasks index endpoint to only show the authenticated user's tasks
   - cache the database connection to avoid multiple connections in the same request
 - [ ] An introduction to authentication using access tokens
+  - create the login script and return 400 if the username and password are missing
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
