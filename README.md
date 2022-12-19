@@ -149,7 +149,7 @@ DB_PASS="your_db_password"
   - retrieve the ID of the authenticated user when authenticating
   - restrict the tasks index endpoint to only show the authenticated user's tasks
   - cache the database connection to avoid multiple connections in the same request
-- [ ] An introduction to authentication using access tokens
+- [x] An introduction to authentication using access tokens
   - create the login script and return 400 if the username and password are missing
   - select the user record based on the username in the request
   - check the username and password and return a 401 status code if invalid
@@ -159,5 +159,6 @@ DB_PASS="your_db_password"
   - [PHP: apache_request_headers](https://www.php.net/manual/en/function.apache-request-headers.php)
   - pass the access token to the task API endpoints in the authorization header
   - validate the access token and decode its contents
+  - get the authenticated user data from the access token
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
