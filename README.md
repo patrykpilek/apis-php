@@ -153,5 +153,7 @@ DB_PASS="your_db_password"
   - create the login script and return 400 if the username and password are missing
   - select the user record based on the username in the request
   - check the username and password and return a 401 status code if invalid
+  - [PHP: base64_encode](https://www.php.net/manual/en/function.base64-encode.php)
+  - generate an encoded access token containing the user details
 - [ ] Authentication using JSON Web Tokens (JWTs)
 - [ ] Expiring and refreshing access tokens
