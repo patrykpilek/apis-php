@@ -160,5 +160,22 @@ DB_PASS="your_db_password"
   - pass the access token to the task API endpoints in the authorization header
   - validate the access token and decode its contents
   - get the authenticated user data from the access token
-- [ ] Authentication using JSON Web Tokens (JWTs)
+- [x] Authentication using JSON Web Tokens (JWTs)
+  - [JSON Web Tokens](https://jwt.io/)
+  - [PHP JWT package](https://github.com/firebase/php-jwt)
+  - [base64 URL encoding](https://en.wikipedia.org/wiki/Base64#The_URL_applications)
+  - [PHP: hash_hmac](https://www.php.net/manual/en/function.hash-hmac.php)
+  - [HMAC with SHA-2 Functions](https://datatracker.ietf.org/doc/html/rfc7518#section-3.2)
+  - [Search: 256-bit key generator](https://www.google.co.uk/search?q=256-bit+key+generator)
+  - create a class to encode a payload in a JWT
+  - [JSON Web Token claims](https://www.iana.org/assignments/jwt/jwt.xhtml)
+  - generate a JWT access token in the login endpoint containing JWT claims
+  - [PHP: hash_equals](https://www.php.net/manual/en/function.hash-equals.php)
+  - adda method to decode the payload from the JWT
+  - pass in the secret key use dor hashing as a dependency
+  - authenticate the task endpoints using the JWT
+  - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
+  - use a custom exception class to return 401 if the signature is invalid
+  - [Search: base64 URL decoder](https://www.google.co.uk/search?q=base64url+decoder)
+  - don't store sensitive data in the JWT
 - [ ] Expiring and refreshing access tokens
