@@ -174,4 +174,6 @@ DB_PASS="your_db_password"
   - adda method to decode the payload from the JWT
   - pass in the secret key use dor hashing as a dependency
   - authenticate the task endpoints using the JWT
+  - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
+  - use a custom exception class to return 401 if the signature is invalid
 - [ ] Expiring and refreshing access tokens
