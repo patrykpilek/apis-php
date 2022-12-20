@@ -168,4 +168,6 @@ DB_PASS="your_db_password"
   - [HMAC with SHA-2 Functions](https://datatracker.ietf.org/doc/html/rfc7518#section-3.2)
   - [Search: 256-bit key generator](https://www.google.co.uk/search?q=256-bit+key+generator)
   - create a class to encode a payload in a JWT
+  - [JSON Web Token claims](https://www.iana.org/assignments/jwt/jwt.xhtml)
+  - generate a JWT access token in the login endpoint containing JWT claims
 - [ ] Expiring and refreshing access tokens
