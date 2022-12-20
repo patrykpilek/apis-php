@@ -173,4 +173,5 @@ DB_PASS="your_db_password"
   - [PHP: hash_equals](https://www.php.net/manual/en/function.hash-equals.php)
   - adda method to decode the payload from the JWT
   - pass in the secret key use dor hashing as a dependency
+  - authenticate the task endpoints using the JWT
 - [ ] Expiring and refreshing access tokens
