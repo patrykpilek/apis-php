@@ -160,7 +160,7 @@ DB_PASS="your_db_password"
   - pass the access token to the task API endpoints in the authorization header
   - validate the access token and decode its contents
   - get the authenticated user data from the access token
-- [ ] Authentication using JSON Web Tokens (JWTs)
+- [x] Authentication using JSON Web Tokens (JWTs)
   - [JSON Web Tokens](https://jwt.io/)
   - [PHP JWT package](https://github.com/firebase/php-jwt)
   - [base64 URL encoding](https://en.wikipedia.org/wiki/Base64#The_URL_applications)
@@ -176,4 +176,6 @@ DB_PASS="your_db_password"
   - authenticate the task endpoints using the JWT
   - [HTTP status code 401: Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
   - use a custom exception class to return 401 if the signature is invalid
+  - [Search: base64 URL decoder](https://www.google.co.uk/search?q=base64url+decoder)
+  - don't store sensitive data in the JWT
 - [ ] Expiring and refreshing access tokens
