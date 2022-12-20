@@ -2,6 +2,10 @@
 
 class JWTCodec
 {
+    public function __construct(private string $key)
+    {
+    }
+    
     public function encode(array $payload): string
     {
         $header = json_encode([
@@ -15,7 +19,7 @@ class JWTCodec
         
         $signature = hash_hmac("sha256",
                                $header . "." . $payload,
-                               "5A7134743777217A25432646294A404E635266556A586E3272357538782F413F",
+                               $this->key,
                                true);
         $signature = $this->base64urlEncode($signature);
         
@@ -33,7 +37,7 @@ class JWTCodec
         
         $signature = hash_hmac("sha256",
                                $matches["header"] . "." . $matches["payload"],
-                               "5A7134743777217A25432646294A404E635266556A586E3272357538782F413F",
+                               $this->key,
                                true);   
                                
         $signature_from_token = $this->base64urlDecode($matches["signature"]);

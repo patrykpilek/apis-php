@@ -172,4 +172,5 @@ DB_PASS="your_db_password"
   - generate a JWT access token in the login endpoint containing JWT claims
   - [PHP: hash_equals](https://www.php.net/manual/en/function.hash-equals.php)
   - adda method to decode the payload from the JWT
+  - pass in the secret key use dor hashing as a dependency
 - [ ] Expiring and refreshing access tokens
