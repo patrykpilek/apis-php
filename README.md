@@ -161,4 +161,11 @@ DB_PASS="your_db_password"
   - validate the access token and decode its contents
   - get the authenticated user data from the access token
 - [ ] Authentication using JSON Web Tokens (JWTs)
+  - [JSON Web Tokens](https://jwt.io/)
+  - [PHP JWT package](https://github.com/firebase/php-jwt)
+  - [base64 URL encoding](https://en.wikipedia.org/wiki/Base64#The_URL_applications)
+  - [PHP: hash_hmac](https://www.php.net/manual/en/function.hash-hmac.php)
+  - [HMAC with SHA-2 Functions](https://datatracker.ietf.org/doc/html/rfc7518#section-3.2)
+  - [Search: 256-bit key generator](https://www.google.co.uk/search?q=256-bit+key+generator)
+  - create a class to encode a payload in a JWT
 - [ ] Expiring and refreshing access tokens
