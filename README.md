@@ -184,3 +184,4 @@ DB_PASS="your_db_password"
   - add an expiry claim to the access token payload when logging in
   - throw a custom exception to not accept the JWT if it has expired
   - issue a refresh token in addition to the access token when logging in
+  - add a refresh endpoint and validate the refresh token in the request
