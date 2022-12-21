@@ -179,3 +179,6 @@ DB_PASS="your_db_password"
   - [Search: base64 URL decoder](https://www.google.co.uk/search?q=base64url+decoder)
   - don't store sensitive data in the JWT
 - [ ] Expiring and refreshing access tokens
+  - [The "exp" (Expiration Time) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4)
+  - [PHP: time](https://www.php.net/manual/en/function.time.php)
+  - add an expiry claim to the access token payload when logging in
