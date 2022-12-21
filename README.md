@@ -186,3 +186,4 @@ DB_PASS="your_db_password"
   - issue a refresh token in addition to the access token when logging in
   - add a refresh endpoint and validate the refresh token in the request
   - validate the user in the refresh token using the database
+  - issue a new access token and refresh token to the authenticated user
