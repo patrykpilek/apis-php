@@ -183,3 +183,4 @@ DB_PASS="your_db_password"
   - [PHP: time](https://www.php.net/manual/en/function.time.php)
   - add an expiry claim to the access token payload when logging in
   - throw a custom exception to not accept the JWT if it has expired
+  - issue a refresh token in addition to the access token when logging in
