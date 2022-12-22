@@ -188,3 +188,4 @@ DB_PASS="your_db_password"
   - validate the user in the refresh token using the database
   - issue a new access token and refresh token to the authenticated user
   - create a table to store a refresh token whitelist
+  - store the refresh token in the whitelist when issued in the login endpoint
