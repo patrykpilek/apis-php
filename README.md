@@ -191,3 +191,4 @@ DB_PASS="your_db_password"
   - store the refresh token in the whitelist when issued in the login endpoint
   - replace the refresh token in the whitelist when issued in the refresh endpoint
   - validate the refresh token is on the whitelist and return a 400 response if not
+  - add a logout endpoint to remove the an active refresh token from the whitelist
