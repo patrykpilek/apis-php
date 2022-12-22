@@ -178,7 +178,7 @@ DB_PASS="your_db_password"
   - use a custom exception class to return 401 if the signature is invalid
   - [Search: base64 URL decoder](https://www.google.co.uk/search?q=base64url+decoder)
   - don't store sensitive data in the JWT
-- [ ] Expiring and refreshing access tokens
+- [x] Expiring and refreshing access tokens
   - [The "exp" (Expiration Time) Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4)
   - [PHP: time](https://www.php.net/manual/en/function.time.php)
   - add an expiry claim to the access token payload when logging in
@@ -193,3 +193,4 @@ DB_PASS="your_db_password"
   - validate the refresh token is on the whitelist and return a 400 response if not
   - add a logout endpoint to remove the an active refresh token from the whitelist
   - add a script to clear out expired refresh tokens from the whitelist
+  - see how a single-page application interacts with the API using access tokens
